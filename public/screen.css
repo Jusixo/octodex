@@ -4,5 +4,83 @@ html {
 
 body {
   margin: 0;
-  font: 16px / 1 sans-serif;
+  font-family: helvetica, ariel;
+  color rgb(47, 47, 47);
 }
+
+header{
+  margin: 0em;
+  padding: 0.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(243 ,243 , 243);
+}
+header ul {
+  list-style: none;
+  margin: 0em;
+  padding: 0em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header h1 {
+  margin: 0;
+}
+ li {
+   justify-content: space-between;
+   align-items: flex-start;
+   margin-right: 0.5em;
+   font-weight: bold;
+   font-size: 14px;
+ }
+ a {
+   text-decoration: none;
+   color: inherit;
+ }
+ main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .divnum200 {
+  display: flex;
+  flex-wrap: wrap;
+}
+main ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+
+span {
+  color: rgb(89, 89, 89);
+}
+ .cats{
+   border: 0.1em solid;
+   margin: 10px;
+   border-radius: 10px;
+   border-color: rgb(243, 243, 243)
+ }
+ .icons {
+  border: 0.1em solid;
+  margin: 10px;
+  border-radius: 10px;
+  border-color: rgb(243, 243, 243)
+  display: flex;
+ }
+
+ .box {
+   border-bottom: 1px solid #cacaca;
+   margin: 1em;
+   text-align: right;
+ }
